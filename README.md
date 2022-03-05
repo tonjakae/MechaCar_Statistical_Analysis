@@ -5,7 +5,7 @@
 * MechaCar_mpg.csv
 * Suspension_Coil.csv
 
-## Summary: Linear Regression to Predict MPG
+# Summary: Linear Regression to Predict MPG
 
 ![image](https://user-images.githubusercontent.com/87340105/156869849-798c005f-7d0d-4690-bf48-9be51f46375f.png)
 
@@ -20,8 +20,8 @@ The p-Value for this model, is 5.35e-11, which is smaller than the assumed signi
 ### 3.) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? 
 This model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. This mmodel does predict mpg of MechaCar prototypes effectively.
 
-#####-
-## Summary: Statistics on Suspension Coils
+###### -
+# Summary: Statistics on Suspension Coils
 
 ![image](https://user-images.githubusercontent.com/87340105/156869935-d2c263f5-bb5d-4dfb-9b9d-4f44da7a3280.png)
 
