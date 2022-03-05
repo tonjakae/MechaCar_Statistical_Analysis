@@ -42,7 +42,7 @@ When looking at the overall data we can see that the design specification for al
 
 
 ##### -
-## Summary: T-Test on Suspension Coils
+# Summary: T-Test on Suspension Coils
 
 Write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
