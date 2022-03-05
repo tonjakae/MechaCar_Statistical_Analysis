@@ -26,14 +26,19 @@ This model has an r-squared value of 0.7149, which means that approximately 71% 
 ###### -
 # Summary: Statistics on Suspension Coils
 
-![image](https://user-images.githubusercontent.com/87340105/156869935-d2c263f5-bb5d-4dfb-9b9d-4f44da7a3280.png)
+Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
 
-![image](https://user-images.githubusercontent.com/87340105/156869975-37b2e515-dbbe-49b8-afe9-2880fc8db322.png)
+#### Total Summary
+![image](https://user-images.githubusercontent.com/87340105/156870721-c4a67ce1-9941-413c-8dc1-8840b82f1109.png)
 
-![image](https://user-images.githubusercontent.com/87340105/156869982-0fa09d70-c36f-41e6-b402-5097638ae737.png)
+Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+
+#### Lot Summary
+![image](https://user-images.githubusercontent.com/87340105/156870729-95124fae-28c7-4645-ad4e-c36a705c11ce.png)
+
 
 ### 1.) The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
+When looking at the overall data we can see that the design specification for all lots combined does meet the variance requirements of the PSI.  When looking at each lot individually however, Lot 3 is not meeting that specification as the variance is 170.29 and the standard deviation is 13.05. Lots 1 and 2 continue to meet the required specifications individually.
 
 
 ##### -
