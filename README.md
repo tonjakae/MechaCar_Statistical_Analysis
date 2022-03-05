@@ -1,5 +1,8 @@
 # MechaCar Statistical Analysis
 
+## Overview
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
 ## Resources
 * R 4.1.2 
 * MechaCar_mpg.csv
@@ -29,7 +32,11 @@ This model has an r-squared value of 0.7149, which means that approximately 71% 
 
 ![image](https://user-images.githubusercontent.com/87340105/156869982-0fa09d70-c36f-41e6-b402-5097638ae737.png)
 
+### 1.) The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+
+
+##### -
 ## T-Test on Suspension Coils
 
 
