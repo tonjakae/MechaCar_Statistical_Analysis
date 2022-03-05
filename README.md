@@ -44,6 +44,22 @@ When looking at the overall data we can see that the design specification for al
 ##### -
 ## T-Test on Suspension Coils
 
+Write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
+#### 1.) The t-test for the entire population provides a p-value of 0.06. There is not sufficient evidence to reject the null hypothesis.
 
-## Design a Study Comparing the MechaCar to the Competition
+![image](https://user-images.githubusercontent.com/87340105/156871300-4e4784dc-59fe-47b6-90b7-5c4c0c924032.png)
+
+Write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+
+#### 2.) The t-test for Lot 1 shows a p-value of 1, which means there is not sufficient evidence to reject the null hypothesis.
+
+![image](https://user-images.githubusercontent.com/87340105/156871229-602179db-a41b-4161-bbd1-8e7cbcc79f12.png)
+
+#### 3.) The t-test for Lot 2 shows a p-value of .61, which means there is not sufficient evidence to reject the null hypothesis.
+
+![image](https://user-images.githubusercontent.com/87340105/156871257-3e73e458-23f1-4d46-a8cf-ab2cd4ff8e6d.png)
+
+#### 4.) The t-test for Lot 3 shows a p-value of 0.042, which means there is sufficient statistical evidence to reject the null hypothesis. Lot 3's mean PSI is statistically different from the whole populations's mean PSI.
+
+![image](https://user-images.githubusercontent.com/87340105/156871268-e44e573c-0961-4442-86e4-ea012f13b0a3.png)
